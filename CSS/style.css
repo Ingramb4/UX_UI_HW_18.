@@ -1,0 +1,74 @@
+
+body {
+    display: inline-block;
+    vertical-align: top;
+}
+  
+ logo {
+    width: 23%;
+    padding: 1%;
+    text-align:center;
+ }
+
+
+ h3 {
+    text-align: center;
+    font-size: 72px;
+ }
+
+
+ h1 {
+    text-align: left;
+    font-size: 72 px;
+}
+
+
+ .heroimg {
+    height: 600px;
+    padding: 25px;
+ }
+
+nav {
+  background-color: #373738; 
+  list-style-type: none;
+  text-align: right;
+  width: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #373738; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.flexContainer {
+  width: 33%;
+  margin-left: auto;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.workGrid {
+  display: grid;
+}
+
+.item1 {
+  grid-area: myArea;
+}
+
